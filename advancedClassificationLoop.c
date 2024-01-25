@@ -1,5 +1,4 @@
 #include "NumClass.h"
-#include <stdbool.h>
 
 int powe(int num, int pow);
 

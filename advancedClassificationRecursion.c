@@ -1,5 +1,4 @@
 #include "NumClass.h"
-#include <stdbool.h>
 
 int powerr(int num, int pow);
 int length (int num);

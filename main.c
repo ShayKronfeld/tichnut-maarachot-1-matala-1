@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "NumClass.h"
-#include <stdbool.h>
 
 
 int main (){
@@ -41,4 +39,6 @@ for (int i=min; i<=max; i++){
         }
     }
     printf("\n");
+
+    return 0;
 } 

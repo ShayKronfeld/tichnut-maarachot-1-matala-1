@@ -1,5 +1,4 @@
 #include "NumClass.h"
-#include <stdbool.h>
 
 int factorial(int n);
 
