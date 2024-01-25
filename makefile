@@ -4,6 +4,8 @@ OBJECTS_BASIC = basicClassification.o
 FLAGS= -Wall -g
 FP = -fPIC
 
+.PHONY: all clean loops recursives recursived loopd
+
 all: loops recursives recursived loopd mains maindloop maindrec
 
 loops: libclassloops.a
@@ -46,8 +48,6 @@ advancedClassificationLoop.o: advancedClassificationLoop.c NumClass.h
 
 advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
 	$(CC) $(FLAGS) $(FP) -c  advancedClassificationRecursion.c
-
-.PHONY: clean all
 
 clean: 
 	rm -f mains maindloop maindrec *.o *.a *.so *.gch
