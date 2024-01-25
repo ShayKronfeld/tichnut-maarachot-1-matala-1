@@ -3,6 +3,7 @@
 
 int main (){
     int num1, num2, max,min;
+
     scanf("%d%d",&num1,&num2);
     
     if (num1>num2){
@@ -28,7 +29,7 @@ printf("\nThe Palindromes are:");
              printf(" %d",i);
         
     }
-
+ }
 printf("\nThe Prime numbers are:");
 for (int i=min; i<=max; i++){
         if  (isPrime(i)){
@@ -44,6 +45,7 @@ printf("\nThe Strong numbers are:");
     }
 printf("\n");
 
-    
-    return 0;
-} 
+return 0;
+
+
+}
