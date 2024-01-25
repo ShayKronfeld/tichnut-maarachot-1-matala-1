@@ -20,10 +20,10 @@ mains: main.o libclassrec.a
 	$(CC) $(FLAGS) -o mains main.o libclassrec.a
 
 maindloop: main.o libclassloops.so
-	$(CC) $(FLAGS) -o maindloop main.o libclassloops.so
+	$(CC) $(FLAGS) -o maindloop main.o ./libclassloops.so
 
 maindrec: main.o libclassrec.so
-	$(CC) $(FLAGS) -o maindrec main.o libclassrec.so
+	$(CC) $(FLAGS) -o maindrec main.o ./libclassrec.so
 
 libclassloops.a: $(OBJECTS_BASIC) advancedClassificationLoop.o
 	$(AR) -rcs libclassloops.a $(OBJECTS_BASIC) advancedClassificationLoop.o
