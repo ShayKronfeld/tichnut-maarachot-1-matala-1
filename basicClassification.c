@@ -28,7 +28,7 @@ int factorial(int n) {
 }
 
 int isPrime (int number){
-  if (number <= 1) {
+  if (number < 1) {
         return 0;  // not prime
     }
 
